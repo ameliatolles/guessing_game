@@ -8,7 +8,7 @@ README.md: guessinggame.sh
 
 	echo " " >> README.md	
 
-	echo "- Number of line in guessinggame.sh:" >> README.md
+	echo "- Number of lines in guessinggame.sh:" >> README.md
 	wc -l guessinggame.sh | egrep -o "^[0-9]*" >> README.md
 
 clean:
